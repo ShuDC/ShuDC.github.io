@@ -4381,6 +4381,10 @@ img.lazyload:not(.placeholder).loaded {
   flex-direction: column;
   align-items: stretch;
 }
+.widget.blogger .content > img {
+  width: 50%;
+  height: 50%;
+}
 .widget.blogger .content >.avatar {
   align-self: center;
   overflow: hidden;
