@@ -24,7 +24,7 @@
 
   <!-- 页面元数据 -->
   
-  <title>归档 - Deven&#39;s blog</title>
+  <title>分类：分类B - Deven&#39;s blog</title>
   
 
   
@@ -106,7 +106,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   <body>
     
 
-<header id="l_header" class="l_header always shadow floatable blur "  >
+<header id="l_header" class="l_header always shadow floatable blur show"  >
   <div class='container'>
   <div id='wrapper'>
     <div class='nav-sub'>
@@ -657,7 +657,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       <div id="l_cover">
   
     
-        <div id="half" class='cover-wrapper  featured' style="display: ;">
+        <div id="full" class='cover-wrapper  featured' style="display: none;">
           
             <div id='cover-backstretch'></div>
           
@@ -727,80 +727,74 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
         <div class="body-wrapper" id="pjax-container">
           
 
+
 <div class='l_main'>
-	
-	  <article id="arc" class="post article white-box reveal shadow">
-			
-			
-				
-				
-					
-						
-						<h2>2020</h2>
-					
-						<div class='timenode'>
-								<a class="meta" href="/2020/11/26/win10%E5%AE%89%E8%A3%85%E5%85%A5%E5%8F%A3/">
-									<time>11-26</time>
-									
-										win10安装入口
-									
-									
-									
-									
-								</a>
-						</div>
-				
-			
-				
-				
-					
-						<div class='timenode'>
-								<a class="meta" href="/2020/08/25/%E5%8D%9A%E5%AE%A2%E7%94%9F%E6%B4%BB/">
-									<time>08-25</time>
-									
-										博客生活
-									
-									
-									
-									
-								</a>
-						</div>
-				
-			
-				
-				
-					
-						<div class='timenode'>
-								<a class="meta" href="/2020/08/25/%E5%B8%B8%E7%94%A8%E7%BD%91%E7%AB%99%E6%8B%92%E7%BB%9D%E8%AE%BF%E9%97%AE%E6%80%8E%E4%B9%88%E5%8A%9E/">
-									<time>08-25</time>
-									
-										常用网站拒绝访问(-102)怎么办
-									
-									
-									
-									
-								</a>
-						</div>
-				
-			
-				
-				
-					
-						<div class='timenode'>
-								<a class="meta" href="/2020/08/25/%E6%BC%94%E7%A4%BA%E7%95%8C%E9%9D%A2/">
-									<time>08-25</time>
-									
-										演示界面
-									
-									
-									
-									
-								</a>
-						</div>
-				
-			
-	  </article>
-	
+  
+    
+      
+  <section class="post-list">
+    
+      
+        
+          
+        
+      
+    
+    
+      
+        
+          <div class='post-wrapper'>
+            <div class="post post-v3 white-box reveal shadow">
+  
+  
+  
+  
+    
+    <h2 class="article-title" >
+      <a href="/2020/08/25/%E6%BC%94%E7%A4%BA%E7%95%8C%E9%9D%A2/">
+        演示界面
+      </a>
+    </h2>
+  
+  <div class='md'>
+    
+      <p>　　演示界面</p>
+    
+  </div>
+  
+    <div class='meta-v3' line_style='solid'>
+      <div>
+        
+        <time>2020-08-25</time>
+        
+          <span class="dot"></span>
+          <a class="category-link" href="/categories/%E5%88%86%E7%B1%BBA/">分类A</a><span class="sep"></span><a class="category-link" href="/categories/%E5%88%86%E7%B1%BBA/%E5%88%86%E7%B1%BBA1/">分类A1</a><span class="sep"></span><a class="category-link" href="/categories/%E5%88%86%E7%B1%BBB/">分类B</a><span class="sep"></span><a class="category-link" href="/categories/%E5%88%86%E7%B1%BBB/%E5%88%86%E7%B1%BBB1/">分类B1</a>
+        
+      </div>
+      
+        <div>
+          <a class='readmore' href='/2020/08/25/%E6%BC%94%E7%A4%BA%E7%95%8C%E9%9D%A2/'>
+            阅读全文
+          </a>
+        </div>
+      
+    </div>
+  
+
+</div>
+
+          </div>
+        
+      
+    
+  </section>
+  
+    
+  
+
+
+    
+  
 </div>
 <aside class='l_side'>
   
@@ -1166,14 +1160,14 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   // header 这里无论是否开启pjax都需要
   var l_header=document.getElementById("l_header");
   
-  l_header.classList.remove("show");
+  l_header.classList.add("show");
   
   
     // cover
     var cover_wrapper=document.querySelector('.cover-wrapper');
     
-    cover_wrapper.id="half";
-    cover_wrapper.style.display="";
+    cover_wrapper.id="none";
+    cover_wrapper.style.display="none";
     
   
 </script>

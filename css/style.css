@@ -17,8 +17,8 @@
   box-shadow: 0 2px 4px 0px rgba(0,0,0,0.1), 0 4px 8px 0px rgba(0,0,0,0.1), 0 8px 16px 0px rgba(0,0,0,0.1);
 }
 @font-face {
-  font-family: 'UbuntuMono';
-  src: url("https://cdn.jsdelivr.net/gh/volantis-x/cdn-fonts/UbuntuMono/UbuntuMono-Regular.ttf");
+  font-family: '华文仿宋';
+  src: url("https://cdn.jsdelivr.net/gh/ShuDC/fonts@main/hwfs.ttf");
   font-weight: 'normal';
   font-style: 'normal';
 }
@@ -124,12 +124,12 @@
 .md div.btns p,
 .article div.btns a,
 .md div.btns a {
-  font-size: 0.8125rem;
+  font-size: 0.6rem;
   color: var(--color-p);
 }
 .article div.btns b,
 .md div.btns b {
-  font-size: 0.875rem;
+  font-size: 0.6rem;
 }
 .article div.btns.wide>a,
 .md div.btns.wide>a {
@@ -607,7 +607,7 @@ details {
   margin: 1em 0;
   border-radius: 4px;
   background: var(--color-card);
-  font-size: 0.9375rem;
+  font-size: 0.6rem;
   transition: all 0.28s ease;
   -moz-transition: all 0.28s ease;
   -webkit-transition: all 0.28s ease;
@@ -620,7 +620,7 @@ details summary {
   margin: -16px;
   border-radius: 4px;
   color: rgba(68,68,68,0.7);
-  font-size: 0.875rem;
+  font-size: 0.6rem;
   font-weight: bold;
   position: relative;
   line-height: normal;
@@ -899,7 +899,7 @@ img.inline {
 .md .link-card p.url {
   flex-shrink: 0;
   color: var(--color-meta);
-  font-size: 0.8125rem;
+  font-size: 0.6rem;
 }
 .md .link-group {
   display: grid;
@@ -989,7 +989,7 @@ div.note {
   padding: 16px;
   padding-left: calc(16px + 16px);
   border-radius: 4px;
-  font-size: 0.9375rem;
+  font-size: 0.6rem;
   background: var(--color-block);
   border-left: 4px solid #44d7b6;
 }
@@ -1192,7 +1192,7 @@ div.note.blue::before {
 }
 .md .simpleuser img+span {
   display: block;
-  font-size: 0.875rem;
+  font-size: 0.6rem;
   line-height: 1.2;
   color: var(--color-text);
 }
@@ -1263,7 +1263,7 @@ div.note.blue::before {
 }
 .site-card .info .title {
   font-weight: 600;
-  font-size: 0.9375rem;
+  font-size: 0.6rem;
   color: var(--color-p);
   display: -webkit-box;
   -webkit-box-orient: vertical;
@@ -1275,7 +1275,7 @@ div.note.blue::before {
   -o-transition: all 0.28s ease;
 }
 .site-card .info .desc {
-  font-size: 0.78125rem;
+  font-size: 0.6rem;
   word-wrap: break-word;
   line-height: 1.2;
   color: var(--color-meta);
@@ -1330,7 +1330,7 @@ p.p.right {
 }
 span.p.small,
 p.p.small {
-  font-size: 0.875rem;
+  font-size: 0.6rem;
 }
 span.p.large,
 p.p.large {
@@ -1371,32 +1371,32 @@ p.p.h2 {
 }
 span.p.h1,
 p.p.h1 {
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: var(--color-h1);
   padding-top: 2em;
 }
 span.p.h2,
 p.p.h2 {
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: var(--color-h2);
   padding-top: 2em;
   border-bottom: 1px solid rgba(68,68,68,0.1);
 }
 span.p.h3,
 p.p.h3 {
-  font-size: 1.25rem;
+  font-size: 0.8rem;
   color: var(--color-h3);
   padding-top: 2em;
 }
 span.p.h4,
 p.p.h4 {
-  font-size: 1.125rem;
+  font-size: 0.8rem;
   color: var(--color-h4);
   padding-top: 2em;
 }
 span.p.h5,
 p.p.h5 {
-  font-size: 1rem;
+  font-size: 0.6rem;
   color: var(--color-h5);
   padding-top: 1.5em;
 }
@@ -1445,7 +1445,7 @@ div.tabs {
   border-radius: 4px;
   background: var(--color-card);
   border: 1px solid rgba(68,68,68,0.2);
-  font-size: 0.9375rem;
+  font-size: 0.6rem;
 }
 div.tabs .highlight,
 div.tabs p,
@@ -1481,7 +1481,7 @@ div.tabs ul.nav-tabs li.tab a {
   border-radius: 4px 4px 0 0;
   padding: 8px;
   text-align: center;
-  font-size: 0.875rem;
+  font-size: 0.6rem;
   line-height: inherit;
   font-weight: bold;
   color: var(--color-meta);
@@ -1561,7 +1561,7 @@ div.timenode .body {
 div.timenode .meta {
   position: relative;
   color: var(--color-meta);
-  font-size: 0.875rem;
+  font-size: 0.6rem;
   line-height: 32px;
   height: 32px;
 }
@@ -1740,7 +1740,7 @@ pre {
   margin: 1em 0;
   display: block;
   background: var(--color-block);
-  font-size: 0.8125rem;
+  font-size: 0.6rem;
   font-family: Menlo, UbuntuMono, Monaco, monospace, courier, sans-serif;
   border-radius: 4px;
   line-height: 1.5;
@@ -2230,7 +2230,7 @@ div.fancybox .gallery {
   overflow: hidden;
 }
 div.fancybox .image-caption {
-  font-size: 0.8125rem;
+  font-size: 0.6rem;
   padding-top: 0.5em;
   padding-bottom: 1em;
   color: var(--color-meta);
@@ -2258,7 +2258,7 @@ div.fancybox .image-caption:empty {
   max-width: 500px;
   border-radius: 4px;
   color: var(--color-text);
-  font-family: UbuntuMono, "Varela Round", "PingFang SC", "Microsoft YaHei", Helvetica, Arial, Menlo, Monaco, monospace, sans-serif;
+  font-family: UbuntuMono, "Varela Round", "华文仿宋", "PingFang SC", "Microsoft YaHei", Helvetica, Arial, Menlo, Monaco, monospace, sans-serif;
 }
 .aplayer .aplayer-list {
   text-align: left;
@@ -2377,13 +2377,13 @@ article#comments #valine_container .vwrap .vedit span.actived {
 }
 article#comments #valine_container .vcount {
   color: var(--color-p);
-  font-size: 0.875rem;
+  font-size: 0.6rem;
   padding: 0;
   font-weight: inherit;
 }
 article#comments #valine_container .vcount .vnum {
   color: var(--color-p);
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 article#comments #valine_container button {
   border: none;
@@ -2519,7 +2519,7 @@ article#comments #valine_container .vempty {
 }
 article#comments #valine_container .vpower,
 article#comments #valine_container .vpower a {
-  font-size: 0.78125rem;
+  font-size: 0.6rem;
 }
 article#comments #valine_container .vpower a {
   color: var(--color-p);
@@ -2598,7 +2598,7 @@ ul.list-v.rightmenu li.music.name {
 }
 ul.list-v.rightmenu li.music.name p.nav.music-title {
   color: #696969;
-  font-size: 0.875rem;
+  font-size: 0.6rem;
   max-width: 128px;
   margin: 0 20px;
   overflow: hidden;
@@ -2689,7 +2689,7 @@ article#arc .timenode .meta {
   height: auto;
   max-width: 100%;
   display: flex;
-  font-size: 0.9375rem;
+  font-size: 0.6rem;
   font-weight: 500;
   border-radius: 2px;
   color: var(--color-list);
@@ -2741,7 +2741,7 @@ article#cat .all-cats a {
   padding: 8px 16px;
   border-radius: 4px;
   color: var(--color-list);
-  font-size: 0.9375rem;
+  font-size: 0.6rem;
   font-weight: 500;
 }
 article#cat .all-cats a:hover {
@@ -2772,7 +2772,7 @@ article#tag .all-tags ul li {
   overflow: hidden;
   display: flex;
   position: relative;
-  font-size: 0.9375rem;
+  font-size: 0.6rem;
 }
 article#tag .all-tags ul li a {
   display: inline-block;
@@ -2823,22 +2823,22 @@ article#tag .all-tags ul li span:before {
 .article h1 {
   text-align: left;
   color: var(--color-h1);
-  margin-top: 48px;
+  margin-top: 24px;
 }
 .article h2 {
   text-align: left;
   color: var(--color-h2);
-  margin-top: 48px;
+  margin-top: 24px;
 }
 .article h3 {
   text-align: left;
   color: var(--color-h3);
-  margin-top: 24px;
+  margin-top: 12px;
 }
 .article h4 {
   text-align: left;
   color: var(--color-h4);
-  margin-top: 16px;
+  margin-top: 8px;
 }
 .article h5 {
   font-weight: bold;
@@ -2943,7 +2943,7 @@ article#tag .all-tags ul li span:before {
 .article blockquote ol {
   text-align: left;
   word-wrap: normal;
-  font-size: 0.9375rem;
+  font-size: 0.6rem;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
 }
@@ -2977,7 +2977,7 @@ article#tag .all-tags ul li span:before {
   margin-bottom: 1em;
   overflow: auto;
   background: var(--color-codeblock);
-  font-size: 0.8125rem;
+  font-size: 0.6rem;
   font-family: Menlo, UbuntuMono, Monaco, monospace, courier, sans-serif;
   border: 1px solid #ffebcb;
   padding: 16px;
@@ -2996,7 +2996,7 @@ article#tag .all-tags ul li span:before {
   color: rgba(68,68,68,0.9);
 }
 .article code {
-  font-family: UbuntuMono, "Varela Round", "PingFang SC", "Microsoft YaHei", Helvetica, Arial, Menlo, Monaco, monospace, sans-serif;
+  font-family: UbuntuMono, "Varela Round", "华文仿宋", "PingFang SC", "Microsoft YaHei", Helvetica, Arial, Menlo, Monaco, monospace, sans-serif;
 }
 .article code:not([class]) {
   word-break: break-all;
@@ -3006,7 +3006,7 @@ article#tag .all-tags ul li span:before {
 @media screen and (max-width: 500px) {
   .article ul,
   .article ol {
-    font-size: 0.875rem;
+    font-size: 0.6rem;
   }
   .article figure {
     font-size: 13px;
@@ -3136,7 +3136,7 @@ article#tag .all-tags ul li span:before {
   line-height: 1.75;
   padding-bottom: 8px;
   font-weight: 500;
-  font-size: 0.875rem;
+  font-size: 0.6rem;
   color: var(--color-list);
 }
 .md .footer .header i {
@@ -3154,7 +3154,7 @@ article#tag .all-tags ul li span:before {
   padding: 16px;
 }
 .md .footer .references .body a {
-  font-size: 0.9375rem;
+  font-size: 0.6rem;
   font-weight: 500;
 }
 .md .footer .related_posts .body {
@@ -3195,12 +3195,12 @@ article#tag .all-tags ul li span:before {
   -webkit-line-clamp: 1;
 }
 .md .footer .related_posts .body .vlts-rps .excerpt {
-  font-size: 0.875rem;
+  font-size: 0.6rem;
   color: var(--color-meta);
   -webkit-line-clamp: 3;
 }
 .md .footer .copyright blockquote p {
-  font-size: 0.875rem;
+  font-size: 0.6rem;
   margin: 0.25em 0;
 }
 .md .footer .copyright blockquote p a {
@@ -3223,7 +3223,7 @@ article#tag .all-tags ul li span:before {
 article .readmore {
   display: block;
   margin-top: 24px;
-  font-size: 0.875rem;
+  font-size: 0.6rem;
 }
 footer.footer {
   position: relative;
@@ -3236,7 +3236,7 @@ footer.footer {
 }
 footer.footer,
 footer.footer p {
-  font-size: 0.8125rem;
+  font-size: 0.6rem;
 }
 footer.footer .licenses {
   color: fade(, 50%);
@@ -3287,7 +3287,7 @@ footer.footer .copyright {
   margin-top: 16px;
 }
 footer.footer .copyright p {
-  font-size: 0.78125rem;
+  font-size: 0.6rem;
 }
 @media screen and (max-width: 768px) {
   footer.footer {
@@ -3374,12 +3374,12 @@ footer.footer .copyright p {
   margin: 0;
 }
 .article.l_friends .friends-group .friend-content .friend-card .friend-right p.friend-name {
-  font-size: 0.8125rem;
+  font-size: 0.6rem;
   padding-top: 4px;
   font-weight: bold;
 }
 .article.l_friends .friends-group .friend-content .friend-card .friend-right p.tags {
-  font-size: 0.78125rem;
+  font-size: 0.6rem;
   display: inline;
   background: none;
   word-wrap: break-word;
@@ -3425,7 +3425,7 @@ footer.footer .copyright p {
 .md .img-wrap .image-caption {
   display: block;
   margin: 0.75rem auto;
-  font-size: 0.8125rem;
+  font-size: 0.6rem;
   color: var(--color-meta);
 }
 .md .img-wrap .image-caption:empty {
@@ -3576,7 +3576,7 @@ footer.footer .copyright p {
   border-radius: 8px;
 }
 .l_main .post h1.title {
-  font-size: 1.5rem;
+  font-size: 1rem;
   margin: 0;
   border-bottom: none;
   padding-bottom: 4px;
@@ -3654,7 +3654,7 @@ footer.footer .copyright p {
 .l_main .post .article-meta .new-meta-box,
 .l_main .post .article-meta .new-meta-box p,
 .l_main .post .article-meta .new-meta-box i {
-  font-size: 0.8125rem;
+  font-size: 0.6rem;
 }
 .l_main .post .article-meta .new-meta-box .new-meta-item {
   color: var(--color-meta);
@@ -3814,14 +3814,14 @@ footer.footer .copyright p {
 article#comments p[ct] {
   margin-top: 0;
   margin-bottom: 1em;
-  font-size: 1.125rem;
+  font-size: 0.8rem;
   color: var(--color-text);
   font-weight: 600;
 }
 article#comments p[cst] {
   margin-top: 1em;
   margin-bottom: 1em;
-  font-size: 0.875rem;
+  font-size: 0.6rem;
 }
 article#comments #load-btns,
 article#comments #loading-comments {
@@ -3918,11 +3918,11 @@ img.lazyload:not(.placeholder).loaded {
 }
 .md h1:before,
 .md h2:before {
-  margin-top: -32px;
+  margin-top: -56px;
 }
 .md .article-meta+h1,
 .md .article-meta+h2 {
-  margin-top: -80px;
+  margin-top: -104px;
 }
 .md h3,
 .md h4,
@@ -3931,20 +3931,20 @@ img.lazyload:not(.placeholder).loaded {
   margin-bottom: 1em;
 }
 .md h3:before {
-  margin-top: -56px;
+  margin-top: -68px;
 }
 .md h4:before {
-  margin-top: -64px;
+  margin-top: -72px;
 }
 .md h5 {
   font-weight: bold;
 }
 .md h2+h3:before {
-  margin-top: -80px;
+  margin-top: -104px;
 }
 .md ul,
 .md ol {
-  font-size: 0.9375rem;
+  font-size: 0.6rem;
   list-style: initial;
   padding-left: 8px;
   margin-left: 16px;
@@ -4064,13 +4064,13 @@ img.lazyload:not(.placeholder).loaded {
 }
 .l_main .article .prev-next >a p.title {
   font-weight: 600;
-  font-size: 1rem;
+  font-size: 0.6rem;
 }
 .l_main .article .prev-next >a p.title >i {
   width: 1rem;
 }
 .l_main .article .prev-next >a p.content {
-  font-size: 0.875rem;
+  font-size: 0.6rem;
   font-weight: 400;
   text-align: justify;
   word-break: break-all;
@@ -4147,10 +4147,10 @@ img.lazyload:not(.placeholder).loaded {
   user-select: none;
 }
 .meta-v3 time {
-  font-size: 0.875rem;
+  font-size: 0.6rem;
 }
 .meta-v3 .category-link {
-  font-size: 0.875rem;
+  font-size: 0.6rem;
   color: var(--color-meta);
   -webkit-font-smoothing: auto;
   -moz-osx-font-smoothing: auto;
@@ -4241,7 +4241,7 @@ img.lazyload:not(.placeholder).loaded {
   max-height: 200vh;
   overflow: auto;
   text-align: justify;
-  font-size: 0.875rem;
+  font-size: 0.6rem;
   max-width: 100%;
 }
 @media screen and (max-width: 768px) {
@@ -4293,7 +4293,7 @@ img.lazyload:not(.placeholder).loaded {
   border-top-right-radius: 8px;
   padding: calc(16px - 2px);
   font-weight: bold;
-  font-size: 0.875rem;
+  font-size: 0.6rem;
   padding-bottom: 0;
 }
 .widget header,
@@ -4346,7 +4346,7 @@ img.lazyload:not(.placeholder).loaded {
 .widget >.content ul.popular-posts a .badge {
   flex: none;
   font-weight: normal;
-  font-size: 0.875rem;
+  font-size: 0.6rem;
   color: rgba(68,68,68,0.7);
 }
 .widget >.content ul.entry a.active,
@@ -4381,9 +4381,33 @@ img.lazyload:not(.placeholder).loaded {
   flex-direction: column;
   align-items: stretch;
 }
-.widget.blogger .content > img {
+.widget.blogger .content .scale_30 {
+  width: 30%;
+  height: 30%;
+}
+.widget.blogger .content .scale_40 {
+  width: 40%;
+  height: 40%;
+}
+.widget.blogger .content .scale_50 {
   width: 50%;
   height: 50%;
+}
+.widget.blogger .content .scale_60 {
+  width: 60%;
+  height: 60%;
+}
+.widget.blogger .content .scale_70 {
+  width: 70%;
+  height: 70%;
+}
+.widget.blogger .content .scale_80 {
+  width: 80%;
+  height: 80%;
+}
+.widget.blogger .content .scale_90 {
+  width: 90%;
+  height: 90%;
 }
 .widget.blogger .content >.avatar {
   align-self: center;
@@ -4489,7 +4513,7 @@ img.lazyload:not(.placeholder).loaded {
 }
 .widget.text .content,
 .widget.text .content p {
-  font-size: 0.875rem;
+  font-size: 0.6rem;
   word-break: break-all;
 }
 .widget.text .content a {
@@ -4509,7 +4533,7 @@ img.lazyload:not(.placeholder).loaded {
   padding: 8px 0;
 }
 .widget.list .content a {
-  font-size: 0.875rem;
+  font-size: 0.6rem;
   font-weight: bold;
   line-height: 1.5;
   padding-top: 6px;
@@ -4546,7 +4570,7 @@ img.lazyload:not(.placeholder).loaded {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 0.78125rem;
+  font-size: 0.6rem;
   font-weight: bold;
   color: rgba(68,68,68,0.7);
   line-height: 1.5;
@@ -4623,7 +4647,7 @@ img.lazyload:not(.placeholder).loaded {
   margin-bottom: 8px;
 }
 .widget.related_posts .content h3 {
-  font-size: 0.875rem;
+  font-size: 0.6rem;
   font-weight: bold;
   margin: 0;
 }
@@ -4687,7 +4711,7 @@ img.lazyload:not(.placeholder).loaded {
   color: #fff;
 }
 .snackbar-content .title {
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 600;
 }
 .snackbar-content .action {
@@ -4788,7 +4812,7 @@ img.lazyload:not(.placeholder).loaded {
 .l_side .toc-wrapper a {
   padding-left: 8px;
   color: var(--color-meta);
-  font-size: 0.875rem;
+  font-size: 0.6rem;
   display: inline-block;
 }
 .l_side .toc-wrapper ul .toc-child a,
