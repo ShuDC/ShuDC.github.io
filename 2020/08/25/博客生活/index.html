@@ -697,10 +697,10 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
               <img src='https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f516.svg'><p>归档</p>
             </a>
           
-            <a href="/more/message_board"
+            <a href="/more/message/"
               
               
-              id="moremessage_board">
+              id="moremessage">
               <img src='https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f4f0.svg'><p>留言</p>
             </a>
           
@@ -745,9 +745,9 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
           
             
 <div class='new-meta-item author'>
-  <a class='author' href="/" rel="nofollow">
-    <img no-lazy src="">
-    <p>请设置文章作者</p>
+  <a class='author' target="_blank" href="https://cdn.jsdelivr.net/gh/ShuDC/picture-host@main/me/myvx.jpg" rel="nofollow noopener">
+    <img no-lazy src="https://img.vim-cn.com/a1/d53c11fb5d4fd69529bc805d385fe818feb3f6.png">
+    <p>Deven Shu</p>
   </a>
 </div>
 
@@ -805,21 +805,6 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
       
       
-        <div class='copyright'>
-          <blockquote>
-            
-              
-                <p>博客内容遵循 署名-非商业性使用-相同方式共享 4.0 国际 (CC BY-NC-SA 4.0) 协议</p>
-
-              
-            
-              
-                <p>本文永久链接是：<a href=http://example.com/2020/08/25/%E5%8D%9A%E5%AE%A2%E7%94%9F%E6%B4%BB/>http://example.com/2020/08/25/%E5%8D%9A%E5%AE%A2%E7%94%9F%E6%B4%BB/</a></p>
-              
-            
-          </blockquote>
-        </div>
-      
       
     </div>
   
@@ -853,7 +838,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
         <a class="-mob-share-qq" title="" rel="external nofollow noopener noreferrer noopener"
           
-          target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://example.com/2020/08/25/%E5%8D%9A%E5%AE%A2%E7%94%9F%E6%B4%BB/&title=博客生活 - Deven's blog&summary=　　关于此博客"
+          target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://shudc.github.io/2020/08/25/%E5%8D%9A%E5%AE%A2%E7%94%9F%E6%B4%BB/&title=博客生活 - Deven's blog&summary=　　关于此博客"
           
           >
           
@@ -865,7 +850,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
         <a class="-mob-share-qzone" title="" rel="external nofollow noopener noreferrer noopener"
           
-          target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=http://example.com/2020/08/25/%E5%8D%9A%E5%AE%A2%E7%94%9F%E6%B4%BB/&title=博客生活 - Deven's blog&summary=　　关于此博客"
+          target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://shudc.github.io/2020/08/25/%E5%8D%9A%E5%AE%A2%E7%94%9F%E6%B4%BB/&title=博客生活 - Deven's blog&summary=　　关于此博客"
           
           >
           
@@ -877,7 +862,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
         <a class="-mob-share-weibo" title="" rel="external nofollow noopener noreferrer noopener"
           
-          target="_blank" href="http://service.weibo.com/share/share.php?url=http://example.com/2020/08/25/%E5%8D%9A%E5%AE%A2%E7%94%9F%E6%B4%BB/&title=博客生活 - Deven's blog&summary=　　关于此博客"
+          target="_blank" href="http://service.weibo.com/share/share.php?url=https://shudc.github.io/2020/08/25/%E5%8D%9A%E5%AE%A2%E7%94%9F%E6%B4%BB/&title=博客生活 - Deven's blog&summary=　　关于此博客"
           
           >
           
@@ -1862,7 +1847,7 @@ function setSearchService() {
       // 请求 PV 并自增
       var pvCtn = document.querySelector('#lc-sv');
       if (pvCtn || enableIncr) {
-        var pvGetter = this.getRecord(Counter, 'http://example.com' + '/#lc-sv', 'Visits').then((record) => {
+        var pvGetter = this.getRecord(Counter, 'https://shudc.github.io' + '/#lc-sv', 'Visits').then((record) => {
           incrArr.push(this.buildIncrement(record.objectId))
           var eles = document.querySelectorAll('#lc-sv #number');
           if (eles.length > 0) {
@@ -1880,7 +1865,7 @@ function setSearchService() {
       // 请求 UV 并自增
       var uvCtn = document.querySelector('#lc-uv');
       if (uvCtn || enableIncr) {
-        var uvGetter = this.getRecord(Counter, 'http://example.com' + '/#lc-uv', 'Visitors').then((record) => {
+        var uvGetter = this.getRecord(Counter, 'https://shudc.github.io' + '/#lc-uv', 'Visitors').then((record) => {
           var vuv = this.validUV();
           vuv && incrArr.push(this.buildIncrement(record.objectId))
           var eles = document.querySelectorAll('#lc-uv #number');
@@ -1902,7 +1887,7 @@ function setSearchService() {
         for (i = 0; i < allPV.length; i++) {
           let pv = allPV[i];
           let title = pv.getAttribute('data-title');
-          var url = 'http://example.com' + pv.getAttribute('data-path');
+          var url = 'https://shudc.github.io' + pv.getAttribute('data-path');
           if (url) {
             var viewGetter = this.getRecord(Counter, url, title).then((record) => {
               // 是当前页面就自增

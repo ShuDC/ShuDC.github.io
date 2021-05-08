@@ -701,10 +701,10 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
               <img src='https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f516.svg'><p>归档</p>
             </a>
           
-            <a href="/more/message_board"
+            <a href="/more/message/"
               
               
-              id="moremessage_board">
+              id="moremessage">
               <img src='https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f4f0.svg'><p>留言</p>
             </a>
           
@@ -813,21 +813,6 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
       
       
-        <div class='copyright'>
-          <blockquote>
-            
-              
-                <p>博客内容遵循 署名-非商业性使用-相同方式共享 4.0 国际 (CC BY-NC-SA 4.0) 协议</p>
-
-              
-            
-              
-                <p>本文永久链接是：<a href=http://example.com/2020/08/25/%E6%BC%94%E7%A4%BA%E7%95%8C%E9%9D%A2/>http://example.com/2020/08/25/%E6%BC%94%E7%A4%BA%E7%95%8C%E9%9D%A2/</a></p>
-              
-            
-          </blockquote>
-        </div>
-      
       
     </div>
   
@@ -864,7 +849,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
         <a class="-mob-share-qq" title="" rel="external nofollow noopener noreferrer noopener"
           
-          target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://example.com/2020/08/25/%E6%BC%94%E7%A4%BA%E7%95%8C%E9%9D%A2/&title=演示界面 - Deven's blog&summary=　　演示界面"
+          target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://shudc.github.io/2020/08/25/%E6%BC%94%E7%A4%BA%E7%95%8C%E9%9D%A2/&title=演示界面 - Deven's blog&summary=　　演示界面"
           
           >
           
@@ -876,7 +861,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
         <a class="-mob-share-qzone" title="" rel="external nofollow noopener noreferrer noopener"
           
-          target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=http://example.com/2020/08/25/%E6%BC%94%E7%A4%BA%E7%95%8C%E9%9D%A2/&title=演示界面 - Deven's blog&summary=　　演示界面"
+          target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://shudc.github.io/2020/08/25/%E6%BC%94%E7%A4%BA%E7%95%8C%E9%9D%A2/&title=演示界面 - Deven's blog&summary=　　演示界面"
           
           >
           
@@ -888,7 +873,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
         <a class="-mob-share-weibo" title="" rel="external nofollow noopener noreferrer noopener"
           
-          target="_blank" href="http://service.weibo.com/share/share.php?url=http://example.com/2020/08/25/%E6%BC%94%E7%A4%BA%E7%95%8C%E9%9D%A2/&title=演示界面 - Deven's blog&summary=　　演示界面"
+          target="_blank" href="http://service.weibo.com/share/share.php?url=https://shudc.github.io/2020/08/25/%E6%BC%94%E7%A4%BA%E7%95%8C%E9%9D%A2/&title=演示界面 - Deven's blog&summary=　　演示界面"
           
           >
           
@@ -1221,7 +1206,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
         <div class="webinfo-item">
           <div>最后活动时间：</div>
           
-            <div id="last-update" style="display: none;">Sat May 08 2021 10:36:16 GMT+0800 (GMT+08:00)</div>
+            <div id="last-update" style="display: none;">Sat May 08 2021 12:19:11 GMT+0800 (GMT+08:00)</div>
             <div id="last-update-show">2021-05-08 日</div>
           
         </div>
@@ -2187,7 +2172,7 @@ function setSearchService() {
       // 请求 PV 并自增
       var pvCtn = document.querySelector('#lc-sv');
       if (pvCtn || enableIncr) {
-        var pvGetter = this.getRecord(Counter, 'http://example.com' + '/#lc-sv', 'Visits').then((record) => {
+        var pvGetter = this.getRecord(Counter, 'https://shudc.github.io' + '/#lc-sv', 'Visits').then((record) => {
           incrArr.push(this.buildIncrement(record.objectId))
           var eles = document.querySelectorAll('#lc-sv #number');
           if (eles.length > 0) {
@@ -2205,7 +2190,7 @@ function setSearchService() {
       // 请求 UV 并自增
       var uvCtn = document.querySelector('#lc-uv');
       if (uvCtn || enableIncr) {
-        var uvGetter = this.getRecord(Counter, 'http://example.com' + '/#lc-uv', 'Visitors').then((record) => {
+        var uvGetter = this.getRecord(Counter, 'https://shudc.github.io' + '/#lc-uv', 'Visitors').then((record) => {
           var vuv = this.validUV();
           vuv && incrArr.push(this.buildIncrement(record.objectId))
           var eles = document.querySelectorAll('#lc-uv #number');
@@ -2227,7 +2212,7 @@ function setSearchService() {
         for (i = 0; i < allPV.length; i++) {
           let pv = allPV[i];
           let title = pv.getAttribute('data-title');
-          var url = 'http://example.com' + pv.getAttribute('data-path');
+          var url = 'https://shudc.github.io' + pv.getAttribute('data-path');
           if (url) {
             var viewGetter = this.getRecord(Counter, url, title).then((record) => {
               // 是当前页面就自增
