@@ -5,8 +5,8 @@
     
     <entry>
       <title>win10安装入口</title>
-      <link href="2020/11/26/win10%E5%AE%89%E8%A3%85%E5%85%A5%E5%8F%A3/"/>
-      <url>2020/11/26/win10%E5%AE%89%E8%A3%85%E5%85%A5%E5%8F%A3/</url>
+      <link href="20201126/win10%E5%AE%89%E8%A3%85%E5%85%A5%E5%8F%A3/"/>
+      <url>20201126/win10%E5%AE%89%E8%A3%85%E5%85%A5%E5%8F%A3/</url>
       
         <content type="html"><![CDATA[<p>　　win10安装入口。本文集位于项目&gt;其他&gt;教程&gt;win10</p> <span id="more"></span>]]></content>
       
@@ -30,8 +30,8 @@
     
     <entry>
       <title>博客生活</title>
-      <link href="2020/08/25/%E5%8D%9A%E5%AE%A2%E7%94%9F%E6%B4%BB/"/>
-      <url>2020/08/25/%E5%8D%9A%E5%AE%A2%E7%94%9F%E6%B4%BB/</url>
+      <link href="20200825/%E5%8D%9A%E5%AE%A2%E7%94%9F%E6%B4%BB/"/>
+      <url>20200825/%E5%8D%9A%E5%AE%A2%E7%94%9F%E6%B4%BB/</url>
       
         <content type="html"><![CDATA[<p>　　关于此博客</p><span id="more"></span><h2 id="为什么建立此博客？"><a href="#为什么建立此博客？" class="headerlink" title="为什么建立此博客？"></a>为什么建立此博客？</h2><p>　　建立此博客的初衷有两点，第一点是记录学习生涯。第二点则是分享我所知，我所会。<br>　　谈到记录学习生涯，人学过的知识长久不用就会忘记，我也不例外，正所谓好记性不如烂笔头，因此我将其记录下来，并取其精华，去其糟粕，形成自己的理解，这样便能温故而知新矣。<br>　　谈到分享，知识是用来传授的，取之于民，用之于民也。</p><h2 id="此博客的内容"><a href="#此博客的内容" class="headerlink" title="此博客的内容"></a>此博客的内容</h2><p>　　此博客内容主要内容来源于我的学习生涯，以职业以及兴趣爱好为主，生活常见问题为辅。主要表现形式为普通文章加项目。</p><h2 id="此博客的建立技术"><a href="#此博客的建立技术" class="headerlink" title="此博客的建立技术"></a>此博客的建立技术</h2><p>　　简单来讲本博客是基于hexo博客框架，采用volantis主题，托管在github，后续会出详细教程。</p>]]></content>
       
@@ -43,8 +43,8 @@
     
     <entry>
       <title>常用网站拒绝访问(-102)怎么办</title>
-      <link href="2020/08/25/%E5%B8%B8%E7%94%A8%E7%BD%91%E7%AB%99%E6%8B%92%E7%BB%9D%E8%AE%BF%E9%97%AE%E6%80%8E%E4%B9%88%E5%8A%9E/"/>
-      <url>2020/08/25/%E5%B8%B8%E7%94%A8%E7%BD%91%E7%AB%99%E6%8B%92%E7%BB%9D%E8%AE%BF%E9%97%AE%E6%80%8E%E4%B9%88%E5%8A%9E/</url>
+      <link href="20200825/%E5%B8%B8%E7%94%A8%E7%BD%91%E7%AB%99%E6%8B%92%E7%BB%9D%E8%AE%BF%E9%97%AE%E6%80%8E%E4%B9%88%E5%8A%9E/"/>
+      <url>20200825/%E5%B8%B8%E7%94%A8%E7%BD%91%E7%AB%99%E6%8B%92%E7%BB%9D%E8%AE%BF%E9%97%AE%E6%80%8E%E4%B9%88%E5%8A%9E/</url>
       
         <content type="html"><![CDATA[<p>　　访问某一个网站，无论是用手机还是电脑 均无法访问此网站，其他网站没有问题，但是在另外的地方却能访问此网站，这是什么原因勒？</p><span id="more"></span><h2 id="一、问题分析："><a href="#一、问题分析：" class="headerlink" title="一、问题分析："></a>一、问题分析：</h2><p>　　通过上述问题，我们客户端没有问题，最终问题应该是在客户端访问DNS服务器时，DNS解析出错，即你访问其他网站时，DNS给出了正确的IP地址，当访问此网站时，返回的ip地址错误，即会出现这种状况。<br>　　那为什么其他地方能访问，这块区域不能访问？这是因为大多数时候我们的网络设置为自动选择DNS服务器，在不同的位置，其局域网不一样，IP地址不一样，自动选择DNS服务器不一样。<br>可把问题定位为DNS服务器出错，可理解为DNS劫持。</p><h2 id="二、问题解决："><a href="#二、问题解决：" class="headerlink" title="二、问题解决："></a>二、问题解决：</h2><p>1.打开此网站：<a href="https://github.com.ipaddress.com/">ipaddress</a>，输入目标网站域名，即可得到网站的ip地址。<br>2.win+R，输入cmd 打开命令行工具。<br>3.输入ping 域名  如：ping <a href="http://www.zhihu.com/">www.zhihu.com</a> 。便可看到成功ping通或不通的结果。如果ping通，则说明目标主机服务器没有问题。<br>4.输入ping IP地址  如：ping 23.248.167.11 。便可看到成功ping通或不通的结果。如果ping不通，则说明DNS服务器有问题。<br>5.更改DNS服务器地址：进入本地网络属性,具体百度。如果更改后不行，请多尝试另外的DNS地址。常见的有8.8.8.8 ；114.114.114.144等。<br>6.刷新DNS：打开cmd，敲入命令，刷新DNS解析缓存：ipconfig/flushdns<br>7.最后输入ipconfig/all以查看DNS服务器地址</p>]]></content>
       
@@ -68,8 +68,8 @@
     
     <entry>
       <title>演示界面</title>
-      <link href="2020/08/25/%E6%BC%94%E7%A4%BA%E7%95%8C%E9%9D%A2/"/>
-      <url>2020/08/25/%E6%BC%94%E7%A4%BA%E7%95%8C%E9%9D%A2/</url>
+      <link href="20200825/%E6%BC%94%E7%A4%BA%E7%95%8C%E9%9D%A2/"/>
+      <url>20200825/%E6%BC%94%E7%A4%BA%E7%95%8C%E9%9D%A2/</url>
       
         <content type="html"><![CDATA[<p>　　演示界面</p><span id="more"></span><h2 id="演示界面二"><a href="#演示界面二" class="headerlink" title="演示界面二"></a>演示界面二</h2><h3 id="演示界面三"><a href="#演示界面三" class="headerlink" title="演示界面三"></a>演示界面三</h3><h4 id="演示界面四"><a href="#演示界面四" class="headerlink" title="演示界面四"></a>演示界面四</h4><h5 id="演示界面五"><a href="#演示界面五" class="headerlink" title="演示界面五"></a>演示界面五</h5><h6 id="演示界面六"><a href="#演示界面六" class="headerlink" title="演示界面六"></a>演示界面六</h6><div class="note todo"><p>note todo 待办事项二</p></div>]]></content>
       
