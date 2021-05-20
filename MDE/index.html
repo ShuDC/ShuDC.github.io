@@ -22,7 +22,7 @@
 
   <!-- 页面元数据 -->
   
-  <title>设计概述 - Deven&#39;s blog</title>
+  <title>机械设计 - Deven&#39;s blog</title>
   
 
   
@@ -104,15 +104,13 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   <body>
     
 
-<header id="l_header" class="l_header always shadow floatable blur show"  >
+<header id="l_header" class="l_header auto shadow floatable blur " style='opacity: 0' >
   <div class='container'>
   <div id='wrapper'>
     <div class='nav-sub'>
       <p class="title"></p>
       <ul class='switcher nav-list-h m-phone' id="pjax-header-nav-list">
         <li><a id="s-comment" class="fas fa-comments fa-fw" target="_self" href='javascript:void(0)'></a></li>
-        
-          <li><a id="s-toc" class="s-toc fas fa-list fa-fw" target="_self" href='javascript:void(0)'></a></li>
         
       </ul>
     </div>
@@ -143,6 +141,22 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
                     id="home"
                   >
                   <i class='fas fa-rss fa-fw'></i>主页
+                </a>
+                
+              </li>
+            
+          
+          
+            
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href=/MDE/
+                  
+                  
+                  
+                    id="MDE"
+                  >
+                  <i class='fas fa-book fa-fw'></i>机械设计
                 </a>
                 
               </li>
@@ -416,6 +430,22 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
               
             
               <li>
+                <a class="menuitem flat-box faa-parent animated-hover" href=/MDE/
+                  
+                  
+                  
+                    id="MDE"
+                  >
+                  <i class='fas fa-book fa-fw'></i>机械设计
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
                 <a class="menuitem flat-box faa-parent animated-hover" href=/project/
                   
                   
@@ -655,9 +685,9 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       <div id="l_cover">
   
     
-        <div id="full" class='cover-wrapper post featured' style="display: none;">
+        <div id="half" class='cover-wrapper page search' style="display: ;">
           
-            <div id='cover-backstretch'></div>
+            <div class='cover-bg lazyload placeholder' data-bg="https://cdn.jsdelivr.net/gh/ShuDC/picture-host@main/background/b400.jpg"></div>
           
           <div class='cover-body'>
   <div class='top'>
@@ -666,10 +696,16 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     
     
     
-      <p class="subtitle">探索成就永恒</p>
-    
   </div>
   <div class='bottom'>
+    
+      <div class="m_search">
+        <form name="searchform" class="form u-search-form">
+          <input type="text" class="input u-search-input" placeholder="一搜啥都有..." />
+          <i class="icon fas fa-search fa-fw"></i>
+        </form>
+      </div>
+    
     <div class='menu navigation'>
       <div class='list-h'>
         
@@ -678,35 +714,42 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
               
               
               id="home">
-              <img src='https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f5c3.svg'><p>主页</p>
+              <p>主页</p>
+            </a>
+          
+            <a href="/MDE/"
+              
+              
+              id="MDE">
+              <p>机械设计</p>
             </a>
           
             <a href="/project/"
               
               
               id="project">
-              <img src='https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f5c3.svg'><p>项目</p>
+              <p>项目</p>
             </a>
           
             <a href="/archives/"
               
               
               id="archives">
-              <img src='https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f516.svg'><p>归档</p>
+              <p>归档</p>
             </a>
           
             <a href="/more/message/"
               
               
               id="moremessage">
-              <img src='https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f4f0.svg'><p>留言</p>
+              <p>留言</p>
             </a>
           
             <a href="/more/about/"
               
               
               id="moreabout">
-              <img src='https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f9ec.svg'><p>关于</p>
+              <p>关于</p>
             </a>
           
         
@@ -725,8 +768,8 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
         <div class="body-wrapper" id="pjax-container">
           
 
-<div class='l_main'>
-  <article class="article post white-box reveal md shadow article-type-post" id="post" itemscope itemprop="blogPost">
+<div class='l_main no_sidebar'>
+  <article class="article post white-box reveal md shadow article-type-page" id="page" itemscope itemprop="blogPost">
   
 
 
@@ -735,76 +778,79 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     
     
     
-      <h1 class="title">
-        设计概述
-      </h1>
-      <div class='new-meta-box'>
-        
-          
-            
-<div class='new-meta-item author'>
-  <a class='author' href="/" rel="nofollow">
-    <img no-lazy src="">
-    <p>请设置文章作者</p>
-  </a>
-</div>
-
-          
-        
-          
-            
-
-          
-        
-          
-            <div class="new-meta-item date">
-  <a class='notlink'>
-    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
-    <p>发布于：2020年9月7日</p>
-  </a>
-</div>
-
-          
-        
-          
-            
-  <div class="new-meta-item browse leancloud">
-    <a class='notlink'>
-      
-      <div id="lc-pv" data-title="设计概述" data-path="/project/mechanics/date/manual/index03.html">
-        <i class="fas fa-eye fa-fw" aria-hidden="true"></i>
-        <span id='number'><i class="fas fa-circle-notch fa-spin fa-fw" aria-hidden="true"></i></span>
-        次浏览
-      </div>
-    </a>
-  </div>
-
-
-          
-        
-          
-            
-
-          
-        
-      </div>
-    
   </div>
 
 
   
   
-  <p>设计概述</p>
+  <span class='p center logo large'>机械设计</span>
+<span class='p center small'>机械设计文档索引</span>
+
+<h2 id="机械设计之路"><a href="#机械设计之路" class="headerlink" title="机械设计之路"></a>机械设计之路</h2><p><a href="mechanics/preface">前言</a></p>
+<div class="tabs" id="tab-机械设计之路"><ul class="nav-tabs"><li class="tab active"><a class="#tab-机械设计之路-1">资料专题</a></li><li class="tab"><a class="#tab-机械设计之路-2">软件专题</a></li><li class="tab"><a class="#tab-机械设计之路-3">机械设计基础篇</a></li><li class="tab"><a class="#tab-机械设计之路-4">机械设计技能篇</a></li><li class="tab"><a class="#tab-机械设计之路-5">机械设计产品篇</a></li><li class="tab"><a class="#tab-机械设计之路-6">机械设计开发篇</a></li><li class="tab"><a class="#tab-机械设计之路-7">机械设计实战篇</a></li></ul><div class="tab-content"><div class="tab-pane active" id="tab-机械设计之路-1"><div class="btns rounded grid5">
+            <a class="button" href='mechanics/date/manual' title='机械设计手册'><i class='fas fa-book-open'></i>机械设计手册</a>
+<a class="button" href='mechanics/date/book' title='机械书籍'><i class='fas fa-book-open'></i>机械书籍</a>
+<a class="button" href='mechanics/date/website' title='机械常用网站'><i class='fas fa-book-open'></i>机械常用网站</a>
+<a class="button" href='mechanics/date/standard' title='国家标准'><i class='fas fa-book-open'></i>国家标准</a>
+<a class="button" href='mechanics/date/subscription' title='推荐公众号'><i class='fas fa-book-open'></i>推荐公众号</a>
+          </div></div><div class="tab-pane" id="tab-机械设计之路-2"><div class="btns rounded grid5">
+            <a class="button" href='mechanics/software/autocad' title='AutoCAD'><i class='fas fa-download'></i>AutoCAD</a>
+<a class="button" href='mechanics/software/solidworks' title='Solidworks'><i class='fas fa-download'></i>Solidworks</a>
+<a class="button" href='mechanics/software/catia' title='CATIA'><i class='fas fa-download'></i>CATIA</a>
+<a class="button" href='/' title='Admas'><i class='fas fa-download'></i>Admas</a>
+<a class="button" href='/' title='Ansys'><i class='fas fa-download'></i>Ansys</a>
+<a class="button" href='/' title='keyshot'><i class='fas fa-download'></i>keyshot</a>
+<a class="button" href='/' title='各类插件'><i class='fas fa-download'></i>各类插件</a>
+          </div></div><div class="tab-pane" id="tab-机械设计之路-3"><div class="btns rounded grid5">
+            <a class="button" href='/' title='设计概述'><i class='fas fa-book-open'></i>设计概述</a>
+<a class="button" href='/' title='材料认知与选用'><i class='fas fa-book-open'></i>材料认知与选用</a>
+<a class="button" href='/' title='机械加工工艺'><i class='fas fa-book-open'></i>机械加工工艺</a>
+<a class="button" href='/' title='表面处理及热处理'><i class='fas fa-book-open'></i>表面处理及热处理</a>
+<a class="button" href='/' title='工程制图实战讲解'><i class='fas fa-book-open'></i>工程制图实战讲解</a>
+          </div></div><div class="tab-pane" id="tab-机械设计之路-4"><div class="btns rounded grid5">
+            <a class="button" href='/' title='高级曲面设计'><i class='fas fa-book-open'></i>高级曲面设计</a>
+<a class="button" href='/' title='管道布线设计'><i class='fas fa-book-open'></i>管道布线设计</a>
+<a class="button" href='/' title='热设计'><i class='fas fa-book-open'></i>热设计</a>
+<a class="button" href='/' title='电磁设计'><i class='fas fa-book-open'></i>电磁设计</a>
+<a class="button" href='/' title='自上而下'><i class='fas fa-book-open'></i>自上而下</a>
+<a class="button" href='/' title='仿真'><i class='fas fa-book-open'></i>仿真</a>
+<a class="button" href='/' title='气动设计'><i class='fas fa-book-open'></i>气动设计</a>
+<a class="button" href='/' title='力学计算'><i class='fas fa-book-open'></i>力学计算</a>
+          </div></div><div class="tab-pane" id="tab-机械设计之路-5"><div class="btns rounded grid5">
+            <a class="button" href='/' title='标准零件设计'><i class='fas fa-book-open'></i>标准零件设计</a>
+<a class="button" href='/' title='钣金件设计'><i class='fas fa-book-open'></i>钣金件设计</a>
+<a class="button" href='/' title='注塑件设计'><i class='fas fa-book-open'></i>注塑件设计</a>
+<a class="button" href='/' title='压铸件设计'><i class='fas fa-book-open'></i>压铸件设计</a>
+<a class="button" href='/' title='面板件设计'><i class='fas fa-book-open'></i>面板件设计</a>
+<a class="button" href='/' title='冲压件设计'><i class='fas fa-book-open'></i>冲压件设计</a>
+<a class="button" href='/' title='薄膜面板设计'><i class='fas fa-book-open'></i>薄膜面板设计</a>
+          </div></div><div class="tab-pane" id="tab-机械设计之路-6"><div class="btns rounded grid5">
+            <a class="button" href='/' title='选型设计'><i class='fas fa-book-open'></i>选型设计</a>
+<a class="button" href='/' title='项目开发'><i class='fas fa-book-open'></i>项目开发</a>
+<a class="button" href='/' title='文档编制'><i class='fas fa-book-open'></i>文档编制</a>
+<a class="button" href='/' title='供应链'><i class='fas fa-book-open'></i>供应链</a>
+<a class="button" href='/' title='专利写作'><i class='fas fa-book-open'></i>专利写作</a>
+          </div></div><div class="tab-pane" id="tab-机械设计之路-7"><div class="btns rounded grid5">
+            <a class="button" href='mechanics/machine/gravity-car' title='无碳小车'><i class='fas fa-download'></i>无碳小车</a>
+          </div></div></div></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   
-  
-    
-    <div class='footer'>
-      
-      
-      
-      
-    </div>
   
   
     
@@ -813,98 +859,15 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   <div class='article-meta' id="bottom">
     <div class='new-meta-box'>
       
-        
-          <div class="new-meta-item date" itemprop="dateUpdated" datetime="2020-09-08T00:00:00+08:00">
-  <a class='notlink'>
-    <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
-    <p>更新于：2020年9月8日</p>
-  </a>
-</div>
-
-        
-      
-        
-          
-
-        
-      
-        
-          
-  <div class="new-meta-item share -mob-share-list">
-  <div class="-mob-share-list share-body">
-    
-      
-        <a class="-mob-share-qq" title="" rel="external nofollow noopener noreferrer noopener"
-          
-          target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://shudc.github.io/project/mechanics/date/manual/index03.html&title=设计概述 - Deven's blog&summary="
-          
-          >
-          
-            <img src="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/qq.png" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/qq.png" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=">
-          
-        </a>
-      
-    
-      
-        <a class="-mob-share-qzone" title="" rel="external nofollow noopener noreferrer noopener"
-          
-          target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://shudc.github.io/project/mechanics/date/manual/index03.html&title=设计概述 - Deven's blog&summary="
-          
-          >
-          
-            <img src="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/qzone.png" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/qzone.png" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=">
-          
-        </a>
-      
-    
-      
-        <a class="-mob-share-weibo" title="" rel="external nofollow noopener noreferrer noopener"
-          
-          target="_blank" href="http://service.weibo.com/share/share.php?url=https://shudc.github.io/project/mechanics/date/manual/index03.html&title=设计概述 - Deven's blog&summary="
-          
-          >
-          
-            <img src="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/weibo.png" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/weibo.png" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=">
-          
-        </a>
-      
-    
-      
-    
-      
-    
-  </div>
-</div>
-
-
-
-        
-      
     </div>
   </div>
 
 
   
   
-    
-    
-  
 
   
 </article>
-
-
-  
-
-  <article class="post white-box reveal shadow" id="comments">
-    <p ct><i class='fas fa-comments'></i> 评论</p>
-    
-    <div id="valine_container" class="valine_thread">
-  <i class="fas fa-cog fa-spin fa-fw fa-2x"></i>
-</div>
-
-  </article>
-
 
 
 
@@ -913,17 +876,6 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 </div>
 <aside class='l_side'>
   
-  
-
-  
-    
-    
-
-
-
-
-  
-
 
 </aside>
 
@@ -935,21 +887,21 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
 <script>
   window.pdata={}
-  pdata.ispage=true;
-  pdata.postTitle="设计概述";
+  pdata.ispage=false;
+  pdata.postTitle="";
   pdata.commentPath="";
-  pdata.commentPlaceholder="欢迎评论";
+  pdata.commentPlaceholder="";
   // header 这里无论是否开启pjax都需要
   var l_header=document.getElementById("l_header");
   
-  l_header.classList.add("show");
+  l_header.classList.remove("show");
   
   
     // cover
     var cover_wrapper=document.querySelector('.cover-wrapper');
     
-    cover_wrapper.id="none";
-    cover_wrapper.style.display="none";
+    cover_wrapper.id="half";
+    cover_wrapper.style.display="";
     
   
 </script>
@@ -1203,41 +1155,6 @@ var loadCSS = function( href, before, media, attributes ){
 
 <!-- internal -->
 
-  
-  
-  
-    
-<script src="https://cdn.jsdelivr.net/npm/jquery-backstretch@2.1.18/jquery.backstretch.min.js"></script>
-
-    <script type="text/javascript">
-        var imgs=["https://cdn.jsdelivr.net/gh/ShuDC/picture-host@main/background/r003.jpg", "https://cdn.jsdelivr.net/gh/ShuDC/picture-host@main/background/r001.jpg", "https://cdn.jsdelivr.net/gh/ShuDC/picture-host@main/background/0132.jpg", "https://cdn.jsdelivr.net/gh/ShuDC/picture-host@main/background/0130.jpg"];
-        if ('true' == 'true') {
-          function shuffle(arr){
-            /*From countercurrent-time*/
-            var n = arr.length;
-            while(n--) {
-              var index = Math.floor(Math.random() * n);
-              var temp = arr[index];
-              arr[index] = arr[n];
-              arr[n] = temp;
-            }
-          }
-          shuffle(imgs);
-        }
-	  function Pjax_backstretch(){
-        
-          $.backstretch(
-            imgs,
-          {
-            duration: "10000",
-            fade: "1500"
-          });
-        
-	  }
-	  loadScript("https://cdn.jsdelivr.net/npm/jquery-backstretch@2.1.18/jquery.backstretch.min.js",Pjax_backstretch)
-    </script>
-  
-
 
 
   
@@ -1263,60 +1180,6 @@ var loadCSS = function( href, before, media, attributes ){
         </li>
       
       <hr>
-      
-        
-      
-        
-          
-    <li>
-      <a class='vlts-menu fix-cursor-default ' href=https://volantis.js.org/faqs/
-        
-        
-        
-        
-          id="https:volantisjsorgfaqs"
-        >
-        <i class='fa fa-question fa-fw'></i> 常见问题
-      </a>
-    </li>
-  
-        
-      
-        
-          
-    <li>
-      <a class='vlts-menu fix-cursor-default ' href=https://volantis.js.org/examples/
-        
-        
-        
-        
-          id="https:volantisjsorgexamples"
-        >
-        <i class='fa fa-rss fa-fw'></i> 示例博客
-      </a>
-    </li>
-  
-        
-      
-        
-          
-    <li>
-      <a class='vlts-menu fix-cursor-default ' href=https://volantis.js.org/contributors/
-        
-        
-        
-        
-          id="https:volantisjsorgcontributors"
-        >
-        <i class='fa fa-fan fa-spin fa-fw'></i> 加入社区
-      </a>
-    </li>
-  
-        
-      
-        
-          <hr>
-        
       
         
           
@@ -1382,7 +1245,7 @@ var loadCSS = function( href, before, media, attributes ){
         
         
         >
-        <i class='fas fa-moon fa-fw'></i> Dark mode
+        <i class='fas fa-moon fa-fw'></i> 暗黑模式
       </a>
     </li>
   
@@ -1717,6 +1580,8 @@ function listenSearch(){
 }
 function setSearchService() {
 	listenSearch();
+	
+		document.addEventListener("pjax:success", listenSearch);
 	
 }
 </script>
